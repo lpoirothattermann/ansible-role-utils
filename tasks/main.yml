@@ -1,0 +1,15 @@
+---
+# tasks file for utils
+
+- name: Install required packages
+  package:
+    name:
+      - wget
+      - curl
+      - htop
+      - btop
+      - iputils-ping
+      - vim
+      - telnet
+      - inetutils-traceroute
+    state: present

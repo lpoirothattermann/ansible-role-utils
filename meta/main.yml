@@ -1,0 +1,12 @@
+galaxy_info:
+  author: Louis POIROT--HATTERMANN
+  description: List of tooling packages
+  license: MIT
+
+  min_ansible_version: 2.1
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - jammy
